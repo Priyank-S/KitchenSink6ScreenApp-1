@@ -1,0 +1,10 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "addTwoNumbers.js",
+    "type" : "jsfile"
+  } ],
+  "description" : "Addition of numbers",
+  "mapType" : "java.util.HashMap",
+  "empty" : true
+}

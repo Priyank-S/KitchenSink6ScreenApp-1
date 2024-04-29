@@ -1,0 +1,16 @@
+{
+  "name" : "Instas",
+  "type" : "oauth2",
+  "version" : "1.0",
+  "metaPreference" : -1,
+  "config" : "{\"auth_type\":\"oauth2\",\"session_restrictions\":{\"session_restriction_type\":\"allow_any_number_of_sessions\"},\"profile\":{\"profile_attribute_selectors\":{\"federation_id\":\"data.id\",\"last_name\":\"\",\"custom_profile_attribute_selectors\":{},\"display_name\":\"data.full_name\",\"first_name\":\"\",\"email\":\"\"},\"endpoint\":{\"location\":\"url\",\"type\":\"direct\",\"value\":\"https://api.instagram.com/v1/users/self\"},\"request_method\":\"GET\"},\"enable_identity_pkce\":true,\"dependent_providers\":[],\"client_authentication\":{\"client_pvt_key_jwt\":false,\"authentication_scheme\":\"form\",\"client_secret\":\"\",\"client_id\":\"\"},\"authorization_endpoint\":\"https://api.instagram.com/oauth/authorize/\",\"logout_url\":\"https://instagram.com/accounts/logout\",\"additional_data\":{\"refresh_request\":[],\"token_request\":[],\"revoke_request\":[],\"profile_request\":[],\"authorize_request\":[]},\"grant_type\":\"authorization_code\",\"scope\":\"basic\",\"dollarParamPresence\":{\"logout_url\":false,\"revoke_url\":false,\"profile_url\":false,\"authorization_endpoint\":false,\"token_endpoint\":false},\"authentication_scheme\":\"query\",\"oauthProviderType\":\"instagram\",\"token_endpoint\":\"https://api.instagram.com/oauth/access_token\"}",
+  "policyConfig" : "{\"def_user_status\":\"pending\",\"max_login_fail\":5}",
+  "admissionPolicy" : "no_approval_needed",
+  "identityMeta" : {
+    "allow_sso" : false
+  },
+  "isIntegrityEnabled" : true,
+  "ssoenabled" : false,
+  "mapType" : "java.util.HashMap",
+  "empty" : true
+}

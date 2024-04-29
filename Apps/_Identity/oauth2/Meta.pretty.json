@@ -1,0 +1,81 @@
+{
+    "admissionPolicy": "no_approval_needed",
+    "config": {
+        "additional_data": {
+            "authorize_request": [
+                
+            ],
+            "profile_request": [
+                
+            ],
+            "refresh_request": [
+                
+            ],
+            "revoke_request": [
+                
+            ],
+            "token_request": [
+                
+            ]
+        },
+        "auth_type": "oauth2",
+        "authentication_scheme": "header",
+        "authorization_endpoint": "https://100000006.auth.dev-hclvoltmx.net/oauth2/callback",
+        "client_authentication": {
+            "authentication_scheme": "header",
+            "client_id": "",
+            "client_pvt_key_jwt": false,
+            "client_secret": ""
+        },
+        "dependent_providers": [
+            
+        ],
+        "dollarParamPresence": {
+            "authorization_endpoint": false,
+            "logout_url": false,
+            "profile_url": false,
+            "revoke_url": false,
+            "token_endpoint": false
+        },
+        "enable_identity_pkce": true,
+        "grant_type": "authorization_code",
+        "logout_url": "",
+        "oauthProviderType": "default",
+        "profile": {
+            "endpoint": {
+                "location": "",
+                "type": "none",
+                "value": ""
+            },
+            "profile_attribute_selectors": {
+                "custom_profile_attribute_selectors": {
+                    
+                },
+                "email": "",
+                "federation_id": "",
+                "first_name": "",
+                "last_name": ""
+            },
+            "request_method": "GET"
+        },
+        "session_restrictions": {
+            "session_restriction_type": "allow_any_number_of_sessions"
+        },
+        "token_endpoint": "https://100000006.auth.dev-hclvoltmx.net/oauth2/callback"
+    },
+    "empty": true,
+    "identityMeta": {
+        "allow_sso": false
+    },
+    "isIntegrityEnabled": true,
+    "mapType": "java.util.HashMap",
+    "metaPreference": -1,
+    "name": "oauth2",
+    "policyConfig": {
+        "def_user_status": "pending",
+        "max_login_fail": 5
+    },
+    "ssoenabled": false,
+    "type": "oauth2",
+    "version": "1.0"
+}

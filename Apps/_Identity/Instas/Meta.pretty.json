@@ -1,0 +1,83 @@
+{
+    "admissionPolicy": "no_approval_needed",
+    "config": {
+        "additional_data": {
+            "authorize_request": [
+                
+            ],
+            "profile_request": [
+                
+            ],
+            "refresh_request": [
+                
+            ],
+            "revoke_request": [
+                
+            ],
+            "token_request": [
+                
+            ]
+        },
+        "auth_type": "oauth2",
+        "authentication_scheme": "query",
+        "authorization_endpoint": "https://api.instagram.com/oauth/authorize/",
+        "client_authentication": {
+            "authentication_scheme": "form",
+            "client_id": "",
+            "client_pvt_key_jwt": false,
+            "client_secret": ""
+        },
+        "dependent_providers": [
+            
+        ],
+        "dollarParamPresence": {
+            "authorization_endpoint": false,
+            "logout_url": false,
+            "profile_url": false,
+            "revoke_url": false,
+            "token_endpoint": false
+        },
+        "enable_identity_pkce": true,
+        "grant_type": "authorization_code",
+        "logout_url": "https://instagram.com/accounts/logout",
+        "oauthProviderType": "instagram",
+        "profile": {
+            "endpoint": {
+                "location": "url",
+                "type": "direct",
+                "value": "https://api.instagram.com/v1/users/self"
+            },
+            "profile_attribute_selectors": {
+                "custom_profile_attribute_selectors": {
+                    
+                },
+                "display_name": "data.full_name",
+                "email": "",
+                "federation_id": "data.id",
+                "first_name": "",
+                "last_name": ""
+            },
+            "request_method": "GET"
+        },
+        "scope": "basic",
+        "session_restrictions": {
+            "session_restriction_type": "allow_any_number_of_sessions"
+        },
+        "token_endpoint": "https://api.instagram.com/oauth/access_token"
+    },
+    "empty": true,
+    "identityMeta": {
+        "allow_sso": false
+    },
+    "isIntegrityEnabled": true,
+    "mapType": "java.util.HashMap",
+    "metaPreference": -1,
+    "name": "Instas",
+    "policyConfig": {
+        "def_user_status": "pending",
+        "max_login_fail": 5
+    },
+    "ssoenabled": false,
+    "type": "oauth2",
+    "version": "1.0"
+}

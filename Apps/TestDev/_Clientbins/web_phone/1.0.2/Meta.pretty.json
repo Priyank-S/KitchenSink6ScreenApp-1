@@ -1,0 +1,7 @@
+{
+    "description": "'Binary for SHARE'",
+    "displayname": "SHARE",
+    "filename": "SHARE.zip",
+    "upgradable": false,
+    "version": "1.0.2"
+}

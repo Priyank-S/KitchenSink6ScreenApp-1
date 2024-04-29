@@ -1,0 +1,12 @@
+{
+    "description": "Addition of numbers",
+    "empty": true,
+    "jars": [
+        {
+            "name": "addTwoNumbers.js",
+            "type": "jsfile"
+        }
+    ],
+    "mapType": "java.util.HashMap",
+    "serviceType": "integration"
+}
