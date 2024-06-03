@@ -107,7 +107,7 @@
     "androidscreenresizeable": "false",
     "androidscreensmall": "true",
     "androidwear_allowselfsignedcertificates": "None",
-    "andtargetsdkkey": "12.0 (31)",
+    "andtargetsdkkey": "13.0 (33)",
     "andwearapppackagekey": "com.konylabs.SampleTest",
     "andwearappversioncode": "1",
     "andwearmaxsdkkey": "None",
