@@ -1,3 +1,0 @@
-https://manage.sit2-kony.com/console/#/environments/b2757a55-9d33-4a1e-9e55-38529b193b7c/downloads?path=Newrep/Builds/m100000015001/iOS/Tablet/Native/Newrep_2.ipa
-https://manage.sit2-kony.com/console/#/environments/b2757a55-9d33-4a1e-9e55-38529b193b7c/downloads?path=Newrep/Builds/m100000015001/iOS/Mobile/Native/Newrep_1.ipa
-https://manage.sit2-kony.com/console/#/environments/b2757a55-9d33-4a1e-9e55-38529b193b7c/downloads?path=Newrep/Builds/m100000015001/iOS/Tablet/Native/Newrep_2.ipa

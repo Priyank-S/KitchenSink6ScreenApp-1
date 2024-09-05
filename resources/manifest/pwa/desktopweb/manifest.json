@@ -3,42 +3,42 @@
     "orientation": "any",
     "background_color": "#FFFFFF",
     "display": "standalone",
-    "name": "Sample",
-	"id": "Sample",
-    "short_name": "Sample",
-	"start_url": "/apps/Sample/",
+    "name": "Hype1",
+	"id": "Hype1",
+    "short_name": "Hype1",
+	"start_url": "/apps/Hype1/",
     "icons": [{
-    "src": "kony_48.png",
+    "src": "voltmx_48.png",
     "sizes": "48x48",
     "type": "image/png"
 	  }, {
-		"src": "kony_71.png",
+		"src": "voltmx_71.png",
 		"sizes": "72x72",
 		"type": "image/png"
 	  }, {
-		"src": "kony_88.png",
+		"src": "voltmx_88.png",
 		"sizes": "96x96",
 		"type": "image/png"
 	  }, {
-		"src": "kony_150.png",
+		"src": "voltmx_150.png",
 		"sizes": "144x144",
 		"type": "image/png"
 	  }, {
-		"src": "kony_150.png",
+		"src": "voltmx_150.png",
 		"sizes": "168x168",
 		"type": "image/png"
 	  }, {
-		  "src": "kony_300.png",
+		  "src": "voltmx_300.png",
 		  "type": "image/png",
 		  "sizes": "192x192"
     },
     {
-      "src": "kony_300.png",
+      "src": "voltmx_300.png",
       "type": "image/png",
       "sizes": "512x512"
     }],
     "related_applications": [{
         "platform": "web",
-		"url": "http://localhost:port/apps/Sample/"
+		"url": "http://localhost:port/apps/Hype1/"
     }]
 }

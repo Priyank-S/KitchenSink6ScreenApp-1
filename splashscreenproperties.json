@@ -2,45 +2,20 @@
     "splashScreen": {
         "desktop": {
             "desktopweb": {},
-            "kiosk": {}
+            "kiosk": {},
+            "nativemac": {},
+            "nativewin": {}
         },
         "mobile": {
             "android": {},
             "iphone": {
                 "splashConfig": {
-                    "_skin_": "s3f768fd25ab44b297054cc4d6ed59a4",
-                    "children": [
-                        {
-                            "UIElementType": "Image",
-                            "_height_": {
-                                "type": "string",
-                                "value": "100%"
-                            },
-                            "_left_": {
-                                "type": "string",
-                                "value": "0dp"
-                            },
-                            "_src_": "splash.png",
-                            "_top_": {
-                                "type": "string",
-                                "value": "0dp"
-                            },
-                            "_width_": {
-                                "type": "string",
-                                "value": "100%"
-                            },
-                            "contentmode": 0,
-                            "id": "splashImage",
-                            "isvisible": true,
-                            "kuid": "g7df3e099d4e4726af85c09639bc7c67",
-                            "wType": "Image"
-                        }
-                    ]
+                    "_skin_": "s61f8244a2e64ed99375913f78921533",
+                    "children": []
                 }
             },
             "spa": {},
             "spaan": {},
-            "spabb": {},
             "spaip": {},
             "spawinphone8": {},
             "winphone10": {},
@@ -51,34 +26,8 @@
             "ipad": {
                 "landscape": {},
                 "splashConfig": {
-                    "_skin_": "s3f768fd25ab44b297054cc4d6ed59a4",
-                    "children": [
-                        {
-                            "UIElementType": "Image",
-                            "_height_": {
-                                "type": "string",
-                                "value": "100%"
-                            },
-                            "_left_": {
-                                "type": "string",
-                                "value": "0dp"
-                            },
-                            "_src_": "splash.png",
-                            "_top_": {
-                                "type": "string",
-                                "value": "0dp"
-                            },
-                            "_width_": {
-                                "type": "string",
-                                "value": "100%"
-                            },
-                            "contentmode": 0,
-                            "id": "splashImage",
-                            "isvisible": true,
-                            "kuid": "h853670d7b5c452fa540def0776b3777",
-                            "wType": "Image"
-                        }
-                    ]
+                    "_skin_": "s61f8244a2e64ed99375913f78921533",
+                    "children": []
                 }
             },
             "spa": {},
