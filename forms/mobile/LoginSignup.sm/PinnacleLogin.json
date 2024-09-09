@@ -1,0 +1,189 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s19df0bb5d0b483f920e5307af62fefc",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "FacebookSquare": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dffbc230b7db4f0db13c03c8ececc167",
+                "srcKUID": "ea7e9da654d24787b116e6f6348ff248",
+                "wType": "Label"
+            }
+        },
+        "Instagram": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a64522aa00c048388e69ba527482135c",
+                "srcKUID": "c1733252233e4e8fb06b1f0cbecfed2b",
+                "wType": "Label"
+            }
+        },
+        "LinkedinSquare": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f2228d8018034ee9b9def558ab4536ff",
+                "srcKUID": "e78581f11e0e41a4a7e32646bcc44350",
+                "wType": "Label"
+            }
+        },
+        "PinnacleLogin": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "c384b04330094d31a50f361fdfdb2c44",
+                "srcKUID": "uf3818ec92a5461bbae25006573b3483",
+                "wType": "FlexContainer"
+            }
+        },
+        "TextField0fe3f8182c4804e": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fcee1a20dbdc4b2b9759e0e63059fafe",
+                "srcKUID": "hdc9b1a1e99f4dae8fa397dfd1e3f9a5",
+                "wType": "TextField"
+            }
+        },
+        "btnLogin": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ece33c347a7044288541c4defb2947c1",
+                "srcKUID": "u124ca361bdd4ecc918516bd83b019fe",
+                "wType": "Button"
+            }
+        },
+        "btnSignUp": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e713bcf480da49f3b668a8e1897d36c2",
+                "srcKUID": "ue70ab70c4504868be173c468c09e2f3",
+                "wType": "Button"
+            }
+        },
+        "flxBackground": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c33d17e0eeeb43a7afcd8eac8638fe6b",
+                "srcKUID": "u3f905a714514505a4a79629859875f7",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxError": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e805b57b17d54c70b34f9866fabf1814",
+                "srcKUID": "u7d18363ed0e4a618ddb6d82d91aec7e",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxLogin": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "df4202000d32486986925d5cbff72a8d",
+                "srcKUID": "u1329524922148e2b6c5e7ca9e6005f4",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgClose": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e92148757f0a400e96e1a308cc6ede00",
+                "srcKUID": "u83c4a5f746c449e9c64162d07877bf1",
+                "wType": "Image"
+            }
+        },
+        "imgHYPE": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fe804f2912ce46a3aed7d81e75e800d6",
+                "srcKUID": "d1a38db8fce948ae8a02dd98a2e38bb4",
+                "wType": "Image"
+            }
+        },
+        "imgLogoH": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ha060c05bdca4de1a3a9af935c81c21c",
+                "srcKUID": "u91e0eaf3f554e3e994d50d1a4e81ac2",
+                "wType": "Image"
+            }
+        },
+        "lblError": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bf4fadfb04d64fe69fc7708a5656e646",
+                "srcKUID": "uaefee220e9d422995507ed09042ce28",
+                "wType": "Label"
+            }
+        },
+        "tbxPassword": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h3c45e266779413785dce4ee489cb83d",
+                "srcKUID": "ue0e1d2aa8c04f378874e901658ed805",
+                "wType": "TextField"
+            }
+        },
+        "tbxUsername": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e7de65fdcd0d43ab8e52f68983606cb3",
+                "srcKUID": "u6f7aef208b04f57ab2b947a6484afe0",
+                "wType": "TextField"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "PinnacleLogin",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "c384b04330094d31a50f361fdfdb2c44",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "LoginSignup",
+    "pf": "LoginSignup",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "uf3818ec92a5461bbae25006573b3483",
+    "wType": "UserWidgetInstance"
+}

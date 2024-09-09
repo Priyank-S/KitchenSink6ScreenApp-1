@@ -39,9 +39,7 @@
         }
     },
     "canUpdateUI": true,
-    "children": [
-        "ButtonRound"
-    ],
+    "children": [],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,

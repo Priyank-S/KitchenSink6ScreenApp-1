@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa662850d3144c4db07c708bd2b620eb",
+    "_src_": "list_icon.png",
+    "_width_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "uwuda473f207e44468bc0d86c01f9277cd",
+        "platform": "iphone",
+        "templateType": "userwidgets",
+        "topLevelBox": null
+    },
+    "id": "imgListMapView",
+    "ide_onTouchEnd": "AS_Image_c13a76ef2d8240379b9247b5238476ec",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "ua089f5c0f9141248f9679da19eb7550",
+    "name": "kony.ui.Image2",
+    "parent": "flxShiftViews",
+    "pf": "userwidgetmodel",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

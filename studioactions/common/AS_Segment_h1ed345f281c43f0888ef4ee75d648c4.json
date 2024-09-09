@@ -1,0 +1,29 @@
+{
+    "AS_Segment_h1ed345f281c43f0888ef4ee75d648c4": {
+        "id": "AS_Segment_h1ed345f281c43f0888ef4ee75d648c4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u05a5175cf6445c2bf2ddc18926b3ec6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g72ada4623904125b1565bc71f2fe843",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(parseInt(y) - this.initialDirectionPosition > 0)\n{\n  if(this.view.segListView.height == \"88%\"){\n    this.view.segListView.height = \"100%\";\n  }\n  this.view.forceLayout();\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

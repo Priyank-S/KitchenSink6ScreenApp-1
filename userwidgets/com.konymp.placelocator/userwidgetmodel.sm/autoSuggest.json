@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_skin_": "s33d8e18c22548328a38f3526f4fd24b",
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {},
+    "id": "autoSuggest",
+    "info": null,
+    "isvisible": false,
+    "kuid": "u8fd4a34591b478f954cd8fdd2d4524f",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "placelocator",
+    "pf": "userwidgetmodel",
+    "sourceUserWidget": "u14201ad3a754600ac06f7ada9258f2f",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

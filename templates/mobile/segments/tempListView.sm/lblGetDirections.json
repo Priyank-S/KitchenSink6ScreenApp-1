@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "37%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        2,
+        0,
+        2
+    ],
+    "_skin_": "s549aaaec09f45a78536701e09d744d5",
+    "_text_": "Directions",
+    "_top_": {
+        "type": "number",
+        "value": "5"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 6,
+    "id": "lblGetDirections",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "f5e838c2a5b449b88f0e001bcc7a8416",
+    "name": "kony.ui.Label",
+    "paddinginpixel": false,
+    "parent": "flxDirections",
+    "pf": "tempListView",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

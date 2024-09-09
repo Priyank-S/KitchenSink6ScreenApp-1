@@ -51,6 +51,7 @@
     "access_pimdomain_messages": "false",
     "access_shared": "false",
     "access_sms_mms": "false",
+    "accountCloudGuid": "ebe5a9b6-bb00-43e6-8657-f0ae873a8af4",
     "addWatchBackgroundListenerToReceiveDataPayload": "false",
     "addWatchBackgroundListenerToReceiveMessagePayload": "false",
     "allJoyn": "false",
@@ -93,6 +94,138 @@
     "applepushfunc": "None",
     "apploadeventkey": "None",
     "applogokey": "",
+    "appmenu": {
+        "desktop": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "c28fe991b34444f798a81c9c5ae6ebfb",
+                    "title": "Item 1"
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "bffb52f82958408ca26d094a8719d724",
+                    "title": "Item 2"
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "j3dbf37204074dd9a0f878fdba1f7e84",
+                    "title": "Item 3"
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "gfb3b3e4b4834ca6ba18b8a0f78c1cd5",
+                    "title": "Item 4"
+                }
+            ]
+        },
+        "focusSkin": null,
+        "focusskin": null,
+        "mobile": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "d9ec971502bd43e08b4f2ed2a5e1fe76",
+                    "title": "Item 1"
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "a0ee4f9c893f45a3a2ca28c5d245ac79",
+                    "title": "Item 2"
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "ac0774537442478da07bff4249852195",
+                    "title": "Item 3"
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "e8dced5a83bd418a95f01e65e2fbd693",
+                    "title": "Item 4"
+                }
+            ]
+        },
+        "osPlatform": "",
+        "osVersion": "iOS7",
+        "skin": null,
+        "tablet": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "a4c7ac712c5848a8ab62cadbdc2b9c3c",
+                    "title": "Item 1",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "eae05e193b734495b0fcecbd0e034569",
+                    "title": "Item 2",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "cd97561afb30450988dec14ebb61cb0d",
+                    "title": "Item 3",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "de8f672392204b2a84483688d152a69d",
+                    "title": "Item 4",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                }
+            ]
+        },
+        "wType": "Appmenu"
+    },
     "appnamekey": "Hype1",
     "appointments": "false",
     "apppackagekey": "com.orgname.Hype1",
@@ -136,12 +269,12 @@
     "cordovaVersionInfo": {
         "useGlobalCordova": false
     },
-    "createdVizVersion": "9.5.370",
-    "createdgaversion": "9.5.370",
-    "currentgaversion": "9.5.370",
+    "createdVizVersion": "9.5.367",
+    "createdgaversion": "9.5.367",
+    "currentgaversion": "9.5.367",
     "deeplinkkey": "None",
     "defaultZIndex": "1",
-    "defaultlocalekey": "",
+    "defaultlocalekey": "ar",
     "defaulttheme": "defaultTheme",
     "desktopwebaligenmentoption": "left",
     "desktopwebbasefontsize": "16",
@@ -201,9 +334,9 @@
     "hybridaddrkey": "",
     "hybridhttpsportkey": "",
     "hybridportkey": "",
-    "iOSMobileProvision": "",
-    "iOSP12FilePath": "",
-    "iOSP12Password": "",
+    "iOSMobileProvision": "certificates/iOS/appviewerdev.mobileprovision",
+    "iOSP12FilePath": "certificates/iOS/Certificatesdev.p12",
+    "iOSP12Password": "Test@1234",
     "imagewhendownloading": "",
     "initialRotationPreferenceKey": "landscape",
     "inputaccessoryviewtype": "nextprevtoolbar",
@@ -235,7 +368,7 @@
     "iphone_spotlighticon_2x_40": "",
     "iphone_spotlighticon_3x_29": "",
     "iphone_spotlighticon_3x_40": "",
-    "iphonebundleidentifierkey": "com.hcl.Hype1",
+    "iphonebundleidentifierkey": "com.hcl.appviewerdev",
     "iphonebundleversionkey": "1.0.0",
     "iphoneipad_appstoreicon_1x_1024": "",
     "iphoneipadglossyeffectkey": "false",
@@ -244,7 +377,7 @@
     "iphonewebshrtcutkey": "",
     "isA11yConfigEnabled": false,
     "isDpScaleFactor": true,
-    "isI18nConfigEnabled": false,
+    "isI18nConfigEnabled": true,
     "isI18nLayoutConfigEnabled": false,
     "isMVC": true,
     "isNewAppWithRespectToAndroidPackageName": "true",
@@ -257,7 +390,15 @@
     "keyStoreFilePathandwear": "",
     "keyStorePassword": "",
     "keychainPassword": "",
-    "konyVizVersion": "9.5.370",
+    "kfAppInfo": {
+        "d6df2cad-9579-4519-bbd6-6f560b88657f": {
+            "appName": "Hype1",
+            "baseId": "49efa13b-f339-4edb-8a67-b1f74fe51f4e",
+            "id": "49efa13b-f339-4edb-8a67-b1f74fe51f4e",
+            "version": "1.0"
+        }
+    },
+    "konyVizVersion": "9.5.367",
     "lastmodifiedtime": "1725516535740",
     "location": "false",
     "mangoapptitlekey": ",,,,,,",
@@ -528,19 +669,30 @@
     "previewshowpassword": "false",
     "privateNetworkClientServer": "false",
     "project.type": "js",
+    "projectCloudGuid": "61e249ea-3fea-4c40-bdd0-973b15b5c324",
     "project_version": "sprint45",
     "protectedmodeenabled_android": "false",
     "protectedmodeenabled_androidwear": "false",
     "protectedmodeenabled_ios": "false",
-    "prototype": {},
+    "prototype": {
+        "PublishMode": "public",
+        "createdBy": "Priyank Sharma",
+        "createdById": "a5be9192-2863-40ea-a9b1-c6dd61872e06",
+        "createdOn": "2024-09-08T19:13:22.106Z",
+        "password": "",
+        "resourceId": "3e8a4ef1-29ef-4440-b69e-fb88aa32275c",
+        "shareGuid": "4PPFU"
+    },
     "proximity": "false",
     "pushcertificatetype": "",
     "read_device_identifying_information": "false",
     "referenceWidth": "375",
     "registerForDeepLink": {
+        "androidwear": false,
         "desktop": false,
         "mobile": false,
-        "tablet": false
+        "tablet": false,
+        "watch": false
     },
     "remoteSystem": "false",
     "removableStorage": "false",

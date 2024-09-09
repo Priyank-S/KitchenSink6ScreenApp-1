@@ -1,0 +1,513 @@
+{
+    "classname": "listmapview",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "kuid": "c97982f73ed242d9b8e6a98cb2b0cfd5",
+                    "paramList": [
+                        {
+                            "name": "formattedResponse"
+                        }
+                    ],
+                    "propertyKey": "mapDataToSegmentAndMap",
+                    "pw": {
+                        "displayName": "mapDataToSegmentAndMap",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "event"
+                },
+                {
+                    "kuid": "fac73454e40e494196b00f60cf78646e",
+                    "paramList": [
+                        {
+                            "name": "viewName"
+                        }
+                    ],
+                    "propertyKey": "shiftToView",
+                    "pw": {
+                        "displayName": "shiftToView",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "event"
+                },
+                {
+                    "kuid": "b8172386761441cc926363c99c06ed2f",
+                    "paramList": [
+                        {
+                            "name": "origin"
+                        },
+                        {
+                            "name": "destination"
+                        }
+                    ],
+                    "propertyKey": "getDirections",
+                    "pw": {
+                        "displayName": "getDirections",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "event"
+                },
+                {
+                    "kuid": "c384fa826f1a4b36bc5fe84c26fad2c8",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        },
+                        {
+                            "name": "position"
+                        }
+                    ],
+                    "propertyKey": "setDataToSegmentAtAPosition",
+                    "pw": {
+                        "displayName": "setDataToSegmentAtAPosition",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "event"
+                },
+                {
+                    "kuid": "d8981cf516084cac854f169370521228",
+                    "paramList": [
+                        {
+                            "name": "locationData"
+                        }
+                    ],
+                    "propertyKey": "navigateToLocation",
+                    "pw": {
+                        "displayName": "navigateToLocation",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "event"
+                },
+                {
+                    "kuid": "ff573dd1ba8b409fadaa681572614ad1",
+                    "paramList": [
+                        {
+                            "name": "bottomValue"
+                        },
+                        {
+                            "name": "time"
+                        }
+                    ],
+                    "propertyKey": "hideOrUnhideMapSegmentCallout",
+                    "pw": {
+                        "displayName": "hideOrUnhideMapSegmentCallout",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "event"
+                },
+                {
+                    "kuid": "f8e87419c9954b5b941a60678ef3c2b2",
+                    "paramList": [
+                        {
+                            "name": "formattedResponse"
+                        }
+                    ],
+                    "propertyKey": "appendDataToSegment",
+                    "pw": {
+                        "displayName": "appendDataToSegment",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "kuid": "f8cc99214c6042cdab0aa4d729c9310e",
+                    "paramList": [
+                        {
+                            "name": "location"
+                        }
+                    ],
+                    "propertyKey": "customPinClick",
+                    "pw": {
+                        "displayName": "customPinClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "event"
+                },
+                {
+                    "kuid": "d2f9f5a9d4c64b16b2e7956dbe372581",
+                    "paramList": [
+                        {
+                            "name": "context"
+                        }
+                    ],
+                    "propertyKey": "getDirectionsInvokedCallback",
+                    "pw": {
+                        "displayName": "getDirectionsInvokedCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "event"
+                },
+                {
+                    "kuid": "bbf3bdee229348ddb43b00d248c278a9",
+                    "paramList": [],
+                    "propertyKey": "successDrawMapRoute",
+                    "pw": {
+                        "displayName": "successDrawMapRoute",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "event"
+                },
+                {
+                    "kuid": "j001f893284a41899e749602bb29f338",
+                    "paramList": [],
+                    "propertyKey": "refreshData",
+                    "pw": {
+                        "displayName": "refreshData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "event"
+                },
+                {
+                    "kuid": "ab36ae107fd34b819bf479dd5238d98b",
+                    "paramList": [
+                        {
+                            "name": "placeID"
+                        }
+                    ],
+                    "propertyKey": "callToInvoked",
+                    "pw": {
+                        "displayName": "callToInvoked",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "event"
+                },
+                {
+                    "kuid": "e0fb39d810be41f8b9b0586b4aad65ce",
+                    "paramList": [],
+                    "propertyKey": "callSearchHere",
+                    "pw": {
+                        "displayName": "callSearchHere",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "event"
+                },
+                {
+                    "kuid": "c347ab8285d14fc3ab1ffa6e89c08ae5",
+                    "paramList": [
+                        {
+                            "name": "formattedResponse"
+                        }
+                    ],
+                    "propertyKey": "postDataMapping",
+                    "pw": {
+                        "displayName": "postDataMapping",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "event"
+                },
+                {
+                    "kuid": "fbdf4326265b45c9ae326de01a9bb7e2",
+                    "paramList": [],
+                    "propertyKey": "cancelMapsSuccess",
+                    "pw": {
+                        "displayName": "cancelMapsSuccess",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "event"
+                },
+                {
+                    "kuid": "i005c78c6993438e857b692ed8b5d0f4",
+                    "paramList": [],
+                    "propertyKey": "openMapsSuccess",
+                    "pw": {
+                        "displayName": "openMapsSuccess",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "event"
+                },
+                {
+                    "kuid": "f1d9838c8e204124b2e4d1784bb9956a",
+                    "paramList": [
+                        {
+                            "name": "placeDetails"
+                        }
+                    ],
+                    "propertyKey": "getPlaceDetails",
+                    "pw": {
+                        "displayName": "getPlaceDetails",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "event"
+                },
+                {
+                    "kuid": "b48a311480924374bd7cd11bed20eb26",
+                    "paramList": [],
+                    "propertyKey": "onPushOfSegment",
+                    "pw": {
+                        "displayName": "onPushOfSegment",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "kuid": "c8148e269ac74af28c5d3b2d0427c3c9",
+                    "originalPropertyKey": "onClick",
+                    "propertyKey": "getCurrentLocation",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "getCurrentLocation",
+                        "srcWidget": "flxNavigateToCurrentLoction",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ua2797a4c2fd432ab260945a9f615d59"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "aaa6ce278a02467fb351022240aab5a5",
+                    "originalPropertyKey": "onClick",
+                    "propertyKey": "onMapClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onMapClick",
+                        "srcWidget": "mapLayout",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Map"
+                    },
+                    "srcWgtKUID": "ub0bd4f495a346c8bc9f7b09bec281c1"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "General"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Read",
+                    "defaultValue": "null",
+                    "kuid": "d25eb1859f164d16aa42712b7efd9248",
+                    "originalPropertyKey": "locationData",
+                    "propertyIndex": 8,
+                    "propertyKey": "locationData",
+                    "pw": {
+                        "displayName": "Location Data",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Read",
+                    "defaultValue": "null",
+                    "kuid": "e8b31321ff914b3880eaaf8e8c0e4bca",
+                    "originalPropertyKey": "selectedPinLocation",
+                    "propertyIndex": 9,
+                    "propertyKey": "selectedPinLocation",
+                    "pw": {
+                        "displayName": "Selected Pin Location",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "null",
+                    "kuid": "e13d9ddd81cf407db8560d50ca3185c4",
+                    "originalPropertyKey": "mapData",
+                    "propertyIndex": 10,
+                    "propertyKey": "mapData",
+                    "pw": {
+                        "displayName": "Map Data",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ufe0a1bcd1134f58929a2f1ec4eed7ad",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "kuid": "d5eada38b5c34ba98b5774f84c89ff4e",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "mapRouteVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Map Route Visibility",
+                        "srcWidget": "flxMapRoute",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "u20bba7f7b024a0289ab7c135fd056f0"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "e58ad95ba3ae47898079e2c34a4acd8c",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "mapNearByVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Map NearBy Visibility",
+                        "srcWidget": "flxMapView",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "u8ba59771c394a6d92de6720e323015d"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "ha43783e46a34171a669956898cbd135",
+                    "originalPropertyKey": "rowTemplate",
+                    "propertyIndex": 3,
+                    "propertyKey": "rowTemplate",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeys": [
+                            "data",
+                            "widgetDataMap"
+                        ],
+                        "displayName": "List View Row Template",
+                        "srcWidget": "segListView",
+                        "type": "template",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "u8457a30ad3e40a9a64076bd932f0243"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "e889f1fa0a09494e872bb95741220282",
+                    "originalPropertyKey": "rowTemplate",
+                    "propertyIndex": 4,
+                    "propertyKey": "segCalloutRowTemplate",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeys": [
+                            "data",
+                            "widgetDataMap"
+                        ],
+                        "displayName": "Callout Row Template",
+                        "srcWidget": "segMapCallout",
+                        "type": "template",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "uf72a2e2f54d46678d52614ff05f7be3"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "a87d0f25402246a99255c4b8538c46ad",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "mapViewSearchThisAreaText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Search this area Text",
+                        "srcWidget": "lblSearchHere",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u201cf1514d14db6b59abbbecd1aecbf"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "aca58e015e2e498c95aee329a55a75f1",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 6,
+                    "propertyKey": "mapViewSearchThisAreaIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Search this area Icon",
+                        "srcWidget": "imgRefresh",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "ube07edfe813454f9cba832dd4069d53"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "c60bdf9e342147ccbcd3498e44318cb1",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 7,
+                    "propertyKey": "mapViewNavigateIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Navigation Icon",
+                        "srcWidget": "imgCurrentLocation",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "u19521c4f8e84f77b5005e4750a926bc"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

@@ -1,0 +1,79 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_skin_": "sa662850d3144c4db07c708bd2b620eb",
+    "_src_": "refresh_icon.png",
+    "_width_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "android": {
+        "render": true
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "uwu10ed851c8be432abcc486da652268dd",
+        "platform": "iphone",
+        "templateType": "userwidgets",
+        "topLevelBox": null
+    },
+    "id": "imgRefresh",
+    "imagescalemode": 1,
+    "info": null,
+    "iphone": {
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "ube07edfe813454f9cba832dd4069d53",
+    "name": "kony.ui.Image2",
+    "parent": "flxSearchThisArea",
+    "pf": "userwidgetmodel",
+    "spaan": {
+        "render": true
+    },
+    "spabb": {
+        "render": true
+    },
+    "spaip": {
+        "render": true
+    },
+    "spawinphone8": {
+        "render": true
+    },
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "winphone8": {
+        "render": true
+    },
+    "zindex": 1
+}

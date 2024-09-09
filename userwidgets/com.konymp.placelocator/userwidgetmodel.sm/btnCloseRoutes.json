@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd83c55dccca49309ff5c11d1522fb17",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": false,
+    "focusskin": "sd83c55dccca49309ff5c11d1522fb17",
+    "id": "btnCloseRoutes",
+    "ide_onClick": "AS_Button_gf9f3bf2c75347e19182798772276496",
+    "info": null,
+    "isvisible": true,
+    "kuid": "udd8ea3bde434c7aa6a2fcb09a280950",
+    "name": "kony.ui.Button",
+    "parent": "flxCloseRoutes",
+    "pf": "userwidgetmodel",
+    "wType": "Button",
+    "zindex": 5
+}

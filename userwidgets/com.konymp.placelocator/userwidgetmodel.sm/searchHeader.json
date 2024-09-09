@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_skin_": "s33d8e18c22548328a38f3526f4fd24b",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "cancelLabelText": "Cancel",
+        "locationPlaceHolder": "Current Location"
+    },
+    "id": "searchHeader",
+    "info": null,
+    "isvisible": true,
+    "kuid": "u87ec134c336405797a94c9b3132f861",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxScreen1",
+    "pf": "userwidgetmodel",
+    "placeholder": "Current Location",
+    "sourceUserWidget": "udd665ff047b4e50bd21140fee316185",
+    "text": "Label",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

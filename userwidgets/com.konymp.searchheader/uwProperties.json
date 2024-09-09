@@ -1,0 +1,521 @@
+{
+    "classname": "searchheader",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "kuid": "a7bb678b1c6d4d6a9ceac928b9b18d3a",
+                    "paramList": [],
+                    "propertyKey": "getSearchData",
+                    "pw": {
+                        "displayName": "getSearchData",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                },
+                {
+                    "kuid": "i1ae2acdd91249cfb8785e895663f943",
+                    "paramList": [],
+                    "propertyKey": "forceLayoutOnComponent",
+                    "pw": {
+                        "displayName": "forceLayoutOnComponent",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                },
+                {
+                    "kuid": "ha1cf7523b954150a5d1681661686ca7",
+                    "paramList": [
+                        {
+                            "name": "visibilityValue"
+                        }
+                    ],
+                    "propertyKey": "disableLocationTextBox",
+                    "pw": {
+                        "displayName": "disableLocationTextBox",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "kuid": "f8d31b02334049d7bd97f97cd0bf5cc4",
+                    "paramList": [
+                        {
+                            "name": "enteredText"
+                        }
+                    ],
+                    "propertyIndex": 3,
+                    "propertyKey": "locationTextChanged",
+                    "pw": {
+                        "displayName": "locationTextChanged",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "udd665ff047b4e50bd21140fee316185",
+                    "type": "event"
+                },
+                {
+                    "kuid": "b8042e4a9cb546c0bfdebf8e30a3adc0",
+                    "paramList": [
+                        {
+                            "name": "enteredText"
+                        }
+                    ],
+                    "propertyIndex": 4,
+                    "propertyKey": "placeCategoryTextChanged",
+                    "pw": {
+                        "displayName": "placeCategoryTextChanged",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "udd665ff047b4e50bd21140fee316185",
+                    "type": "event"
+                },
+                {
+                    "kuid": "fd0b9994b6a640659149ff50f80bd85c",
+                    "paramList": [],
+                    "propertyIndex": 5,
+                    "propertyKey": "onTouchStartOfLocationTextBox",
+                    "pw": {
+                        "displayName": "onTouchStartOfLocationTextBox",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "udd665ff047b4e50bd21140fee316185",
+                    "type": "event"
+                },
+                {
+                    "kuid": "f55af454441f4fcca8a8c3dc12d06dba",
+                    "paramList": [],
+                    "propertyIndex": 6,
+                    "propertyKey": "onTouchStartOfCategoryTextBox",
+                    "pw": {
+                        "displayName": "onTouchStartOfCategoryTextBox",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "udd665ff047b4e50bd21140fee316185",
+                    "type": "event"
+                },
+                {
+                    "kuid": "cfead0eb697d46158a69118aec0b842e",
+                    "paramList": [
+                        {
+                            "name": "textBoxName"
+                        }
+                    ],
+                    "propertyIndex": 7,
+                    "propertyKey": "changeText",
+                    "pw": {
+                        "displayName": "changeText",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "udd665ff047b4e50bd21140fee316185",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "kuid": "ec4846f462bd41aab22cb058503ff4de",
+                    "originalPropertyKey": "onDone",
+                    "propertyIndex": 1,
+                    "propertyKey": "onEditLocationDone",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onEditLocationDone",
+                        "srcWidget": "txtLocation",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "u0db6167a1f048ef96c756ba8e7407a9"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "b9638b9bd3164d23b99adac53928a5a2",
+                    "originalPropertyKey": "onTouchEnd",
+                    "propertyIndex": 2,
+                    "propertyKey": "cancelClicked",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "cancelClicked",
+                        "srcWidget": "lblCancel",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u3738f47854b466a98ede135e9de5e6f"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [
+                "General"
+            ],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "konympPLsknFlex34495e",
+                    "group": "General",
+                    "kuid": "e8f8c2b821d94bb1851fbced92a784c8",
+                    "originalPropertyKey": "headerSkin",
+                    "propertyIndex": 12,
+                    "propertyKey": "headerSkin",
+                    "pw": {
+                        "displayName": "Header Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "udd665ff047b4e50bd21140fee316185",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "konympPLsknTbxNormal",
+                    "group": "General",
+                    "kuid": "e81aa8fa7edb46f69668002bd0ef2e32",
+                    "originalPropertyKey": "textBoxSkin",
+                    "propertyIndex": 13,
+                    "propertyKey": "textBoxSkin",
+                    "pw": {
+                        "displayName": "TextBox Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "udd665ff047b4e50bd21140fee316185",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "konympPLsknLblffffffRobotoR91",
+                    "group": "General",
+                    "kuid": "i438878cf3c8476ab48aa60120d5d453",
+                    "originalPropertyKey": "cancelSearchButtonSkin",
+                    "propertyIndex": 14,
+                    "propertyKey": "cancelSearchButtonSkin",
+                    "pw": {
+                        "displayName": "Cancel Search ButtonSkin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "udd665ff047b4e50bd21140fee316185",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "konympPLsknBtnClear",
+                    "group": "General",
+                    "kuid": "h8dc2bf83cda45e2be05e1e2d283bdf9",
+                    "originalPropertyKey": "clearBtnSkin",
+                    "propertyIndex": 15,
+                    "propertyKey": "clearBtnSkin",
+                    "pw": {
+                        "displayName": "ClearButton Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "udd665ff047b4e50bd21140fee316185",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "konympPLsknTbxNormal",
+                    "group": "General",
+                    "kuid": "fb7d7190201d455088729ca4f263b253",
+                    "originalPropertyKey": "textBoxOnFocusSkin",
+                    "propertyIndex": 16,
+                    "propertyKey": "textBoxOnFocusSkin",
+                    "pw": {
+                        "displayName": "TextBox OnFocusSkin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "udd665ff047b4e50bd21140fee316185",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "konympPLsknTbxPlaceHolderf2f2f2",
+                    "group": "General",
+                    "kuid": "aa2ca82abde446eb9e883ee82ec66515",
+                    "originalPropertyKey": "textBoxPlaceHolderSkin",
+                    "propertyIndex": 17,
+                    "propertyKey": "textBoxPlaceHolderSkin",
+                    "pw": {
+                        "displayName": "TextBox PlaceHolderSkin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "udd665ff047b4e50bd21140fee316185",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "konympPLsknBtnClear",
+                    "group": "General",
+                    "kuid": "jca5e29d14fb473e89e0305a306c3fef",
+                    "originalPropertyKey": "clearBtnOnFocus",
+                    "propertyIndex": 18,
+                    "propertyKey": "clearBtnOnFocus",
+                    "pw": {
+                        "displayName": "Clear Button OnFocusSkin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "udd665ff047b4e50bd21140fee316185",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "kuid": "f8b6176afc6448e6bddae380b2d262a1",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "searchIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Search Icon",
+                        "srcWidget": "imgSearch",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "ue20279e6314428389b99e2f4827cca1"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "caff4a10b3894ab28068a610fb5916fa",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 2,
+                    "propertyKey": "locationIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Location Icon",
+                        "srcWidget": "imgLocation",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "u309504ca344463c835b23ba207fab7c"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "a98f3b8ac2db498d9124e5aa6476d827",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "cancelLabelVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Cancel Label Visibility",
+                        "srcWidget": "lblCancel",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u3738f47854b466a98ede135e9de5e6f"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "f20fbfecdd5e4c08815127f3de02aefb",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "searchLabelVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Search Label Visibility",
+                        "srcWidget": "lblSearch",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u382f868374f4494b20a8dead47407e8"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "a0de1e1bee784f43a61d00e438eb5454",
+                    "originalPropertyKey": "placeholder",
+                    "propertyIndex": 5,
+                    "propertyKey": "locationPlaceHolder",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Location Placeholder",
+                        "srcWidget": "txtLocation",
+                        "supportedPlatforms": {
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "u0db6167a1f048ef96c756ba8e7407a9"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "b68cdd7494a34d0e89de54965e184637",
+                    "originalPropertyKey": "placeholder",
+                    "propertyIndex": 6,
+                    "propertyKey": "categoryPlaceHolder",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Category Placeholder",
+                        "srcWidget": "txtPlaceOrCategory",
+                        "supportedPlatforms": {
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "u26f1c1f30fe49e09690d084b15eabbb"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "c4f70bc1ccdc49169eea6c28a4baf26d",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 7,
+                    "propertyKey": "searchLabelText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Search Label Text",
+                        "srcWidget": "lblSearch",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u382f868374f4494b20a8dead47407e8"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "hc928649baa74b3c86909cc91e1ab028",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 8,
+                    "propertyKey": "cancelLabelText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Cancel Label Text",
+                        "srcWidget": "lblCancel",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u3738f47854b466a98ede135e9de5e6f"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "ib8542754a634e39a324a7418156163d",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 9,
+                    "propertyKey": "locationTbxText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Location Tbx Text",
+                        "srcWidget": "txtLocation",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "u0db6167a1f048ef96c756ba8e7407a9"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "g0e0cb26a0ee4aaeb93d19a015a79003",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 10,
+                    "propertyKey": "categoryTbxText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Category Tbx Text",
+                        "srcWidget": "txtPlaceOrCategory",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "u26f1c1f30fe49e09690d084b15eabbb"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "g98b0847e4204400b8b5c1ea982c25ac",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 11,
+                    "propertyKey": "btnClearLocationVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Button Clear Location Visibility",
+                        "srcWidget": "btnClearLocation",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "u62bbb10c389499a99d01c57def7de8d"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

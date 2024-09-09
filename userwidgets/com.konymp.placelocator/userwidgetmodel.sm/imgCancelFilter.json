@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "35%"
+    },
+    "_skin_": "sa662850d3144c4db07c708bd2b620eb",
+    "_src_": "close_icon_lg.png",
+    "_width_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "uwuda473f207e44468bc0d86c01f9277cd",
+        "platform": "iphone",
+        "templateType": "userwidgets",
+        "topLevelBox": null
+    },
+    "id": "imgCancelFilter",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "u40746b89099482a9f77127d39843758",
+    "name": "kony.ui.Image2",
+    "parent": "imgCancel",
+    "pf": "userwidgetmodel",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

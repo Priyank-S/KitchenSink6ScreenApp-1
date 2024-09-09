@@ -1,0 +1,83 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "32%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        8,
+        0,
+        8,
+        0
+    ],
+    "_placeholder_": "Search Place or Category",
+    "_skin_": "sa16755f507c4805a3f31d11a6526563",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "android": {
+        "psp": {
+            "keyboardActionLabel": 3
+        }
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "51%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "28%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "sa16755f507c4805a3f31d11a6526563",
+    "id": "txtPlaceOrCategory",
+    "ide_onTextChange": "AS_TextField_f16a197c743b416285cc94e8a120dc3d",
+    "ide_onTouchStart": "AS_TextField_jcc7671acc5b43a28529fcdd8de66f4c",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "closeButtonText": "Close",
+            "keyboardActionLabel": 3,
+            "showClearButton": false,
+            "showCloseButton": true
+        }
+    },
+    "isvisible": false,
+    "keyboardactionlabel": 3,
+    "keyboardtype": "A",
+    "kuid": "u26f1c1f30fe49e09690d084b15eabbb",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "paddinginpixel": false,
+    "parent": "flxHeader",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "sa2f1531362b4dd4b515152daeb441c9",
+    "securetextentry": false,
+    "showclearbutton": false,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

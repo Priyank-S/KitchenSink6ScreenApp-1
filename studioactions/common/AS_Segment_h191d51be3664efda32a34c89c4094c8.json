@@ -1,0 +1,23 @@
+{
+    "AS_Segment_h191d51be3664efda32a34c89c4094c8": {
+        "id": "AS_Segment_h191d51be3664efda32a34c89c4094c8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u05a5175cf6445c2bf2ddc18926b3ec6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g80d6062a9ae41deba107bd747aef128",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.onPushOfSegment!=null && this.onPushOfSegment!=undefined){\nkony.application.showLoadingScreen(\"\", \"\", constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true, {});\nthis.onPushOfSegment();\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "29.42%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1c545c095b54504a38a6b3643fd3bed",
+    "_src_": "hype.png",
+    "_top_": {
+        "type": "string",
+        "value": "20.25%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "68.44%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.67%"
+    },
+    "containerweight": 100,
+    "id": "imgHYPE",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "d1a38db8fce948ae8a02dd98a2e38bb4",
+    "name": "kony.ui.Image2",
+    "parent": "flxLogin",
+    "pf": "userwidgetmodel",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

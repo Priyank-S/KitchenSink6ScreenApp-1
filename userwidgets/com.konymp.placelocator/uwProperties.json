@@ -1,0 +1,722 @@
+{
+    "classname": "placelocator",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "kuid": "hefcea8d5a11483297aa0115af4c5686",
+                    "paramList": [
+                        {
+                            "name": "menuData"
+                        }
+                    ],
+                    "propertyKey": "createDynamicMenu",
+                    "pw": {
+                        "displayName": "createDynamicMenu",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "event"
+                },
+                {
+                    "kuid": "f5de14fe5451416d85ce8d247e76d31e",
+                    "paramList": [
+                        {
+                            "name": "selectedIndex"
+                        }
+                    ],
+                    "propertyIndex": 27,
+                    "propertyKey": "getDirection",
+                    "pw": {
+                        "displayName": "getDirection",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "event"
+                },
+                {
+                    "kuid": "c28591625bd343dabe17cdf477622932",
+                    "paramList": [
+                        {
+                            "name": "selectedIndex"
+                        }
+                    ],
+                    "propertyKey": "callInvoked",
+                    "pw": {
+                        "displayName": "callInvoked",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "event"
+                },
+                {
+                    "kuid": "bf41e996488247299fafd16557bf6f51",
+                    "paramList": [],
+                    "propertyKey": "loadMoreNearbyPlaces",
+                    "pw": {
+                        "displayName": "loadMoreNearbyPlaces",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "kuid": "ee717856d0ab47df9325b3704188172f",
+                    "paramList": [
+                        {
+                            "name": "placeDetails"
+                        }
+                    ],
+                    "propertyKey": "getPlaceDetails",
+                    "pw": {
+                        "displayName": "getPlaceDetails",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "Location Selection Screen",
+                "Map Screen",
+                "Location Display Options",
+                "Filter and Sort"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Location Selection Screen",
+                    "kuid": "eb0623c01fa348d088677f0b889c5c01",
+                    "originalPropertyKey": "recentSearches",
+                    "propertyIndex": 1,
+                    "propertyKey": "recentSearches",
+                    "pw": {
+                        "displayName": "Enable Recent Searches",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "2000",
+                    "group": "General",
+                    "kuid": "b8486e5976ba4e3392a4727f91da2975",
+                    "originalPropertyKey": "defaultSearchRadius",
+                    "propertyIndex": 1,
+                    "propertyKey": "defaultSearchRadius",
+                    "pw": {
+                        "displayName": "Default Search Radius in meters",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "null",
+                    "group": "General",
+                    "kuid": "h0edb667de914904bb39ff114418a777",
+                    "originalPropertyKey": "googleAPIKey",
+                    "propertyIndex": 1,
+                    "propertyKey": "googleAPIKey",
+                    "pw": {
+                        "displayName": "Google API Key",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Location Display Options",
+                    "kuid": "gb55b6899a7a4834aa18deffbec4da1e",
+                    "originalPropertyKey": "distanceVisibility",
+                    "propertyIndex": 1,
+                    "propertyKey": "distanceVisibility",
+                    "pw": {
+                        "displayName": "Display Distance",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "star_empty.png",
+                    "group": "Filter and Sort",
+                    "kuid": "h87a1a5802174a378c52807d5a5649d2",
+                    "originalPropertyKey": "inactiveIcon",
+                    "propertyIndex": 1,
+                    "propertyKey": "inactiveIcon",
+                    "pw": {
+                        "displayName": "Inactive Rating Icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Location Display Options",
+                    "kuid": "g6619e021359411ba552025625cce71c",
+                    "originalPropertyKey": "phoneVisibility",
+                    "propertyIndex": 2,
+                    "propertyKey": "phoneVisibility",
+                    "pw": {
+                        "displayName": "Display Call option",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "star_half.png",
+                    "group": "Filter and Sort",
+                    "kuid": "i815efa2d5b74eed88a7affd5b75a236",
+                    "originalPropertyKey": "halfIcon",
+                    "propertyIndex": 2,
+                    "propertyKey": "halfIcon",
+                    "pw": {
+                        "displayName": "Half Rating Icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "km",
+                    "group": "General",
+                    "kuid": "bbc90454130e427f8fb613be08de3d7c",
+                    "originalPropertyKey": "distanceUnits",
+                    "propertyIndex": 2,
+                    "propertyKey": "distanceUnits",
+                    "pw": {
+                        "displayName": "Distance Unit",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "star_full.png",
+                    "group": "Filter and Sort",
+                    "kuid": "gc35743bba0141628a3319391bf99643",
+                    "originalPropertyKey": "activeIcon",
+                    "propertyIndex": 3,
+                    "propertyKey": "activeIcon",
+                    "pw": {
+                        "displayName": "Active Rating Icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "phone_icon.png",
+                    "group": "Location Display Options",
+                    "kuid": "e2b0b0ed295c4821a3ec33cac616b007",
+                    "originalPropertyKey": "callIcon",
+                    "propertyIndex": 3,
+                    "propertyKey": "callIcon",
+                    "pw": {
+                        "displayName": "Call Icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "directions_icon.png",
+                    "group": "Location Display Options",
+                    "kuid": "e1c86c560e14490c8d51ed9eaa08b4b5",
+                    "originalPropertyKey": "getDirectionsIcon",
+                    "propertyIndex": 4,
+                    "propertyKey": "getDirectionsIcon",
+                    "pw": {
+                        "displayName": "Get Directions Icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Map Screen",
+                    "kuid": "j08ff32969d746218566ff37dc9e973e",
+                    "originalPropertyKey": "filterVisibility",
+                    "propertyIndex": 4,
+                    "propertyKey": "filterVisibility",
+                    "pw": {
+                        "displayName": "Enable Filters",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Location Display Options",
+                    "kuid": "j16a97146aea4ea398110af645af3a68",
+                    "originalPropertyKey": "addressVisibility",
+                    "propertyIndex": 5,
+                    "propertyKey": "addressVisibility",
+                    "pw": {
+                        "displayName": "Display Address",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "current_location_mark.png",
+                    "group": "Map Screen",
+                    "kuid": "dfeb31504905472db933da098169f60f",
+                    "originalPropertyKey": "currentLocationImage",
+                    "propertyIndex": 5,
+                    "propertyKey": "currentLocationImage",
+                    "pw": {
+                        "displayName": "Current Location map Pin Icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Current Location",
+                    "group": "Location Selection Screen",
+                    "kuid": "c9a549317c224da3a11a73773964c5da",
+                    "originalPropertyKey": "currentLocationLabelText",
+                    "propertyIndex": 6,
+                    "propertyKey": "currentLocationLabelText",
+                    "pw": {
+                        "displayName": "Search Suggestion Current Location Placeholder text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Location Display Options",
+                    "kuid": "c8eceedffe5c4624b17f63b9fa2718ee",
+                    "originalPropertyKey": "timingVisibility",
+                    "propertyIndex": 6,
+                    "propertyKey": "timingVisibility",
+                    "pw": {
+                        "displayName": "Display Timings",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Location Display Options",
+                    "kuid": "e5754e92b52448468a2573783a9a3c96",
+                    "originalPropertyKey": "imageVisibility",
+                    "propertyIndex": 7,
+                    "propertyKey": "imageVisibility",
+                    "pw": {
+                        "displayName": "Display Place Image",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Location Display Options",
+                    "kuid": "fffd690117f349798a3a6a90f49a96f9",
+                    "originalPropertyKey": "ratingVisibility",
+                    "propertyIndex": 8,
+                    "propertyKey": "ratingVisibility",
+                    "pw": {
+                        "displayName": "Display Rating",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Location Display Options",
+                    "kuid": "d107671173dd4ed38e143087bebd748d",
+                    "originalPropertyKey": "directionsVisibility",
+                    "propertyIndex": 9,
+                    "propertyKey": "directionsVisibility",
+                    "pw": {
+                        "displayName": "Display Get Directions",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "ufecb4e66d96439bba08967b5f3bcfb2",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "Map Screen",
+                    "kuid": "c6c32687461f4671a180b0da93f65656",
+                    "originalPropertyKey": "mapViewSearchThisAreaText",
+                    "propertyIndex": 1,
+                    "propertyKey": "mapViewSearchThisAreaText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Search this area Text",
+                        "srcWidget": "listMapView",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "uef4645ec3fa4daa96ba3746dc0f0555"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Location Selection Screen",
+                    "kuid": "f55f3633746a4a2a8a3801a6ae4bd41c",
+                    "originalPropertyKey": "locationIcon",
+                    "propertyIndex": 2,
+                    "propertyKey": "locationIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Location Inputbox Icon",
+                        "srcWidget": "searchHeader",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "u87ec134c336405797a94c9b3132f861"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Map Screen",
+                    "kuid": "ae92dfa240b44507a64568e53a6812d1",
+                    "originalPropertyKey": "mapViewSearchThisAreaIcon",
+                    "propertyIndex": 2,
+                    "propertyKey": "mapViewSearchThisAreaIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Search this area Icon",
+                        "srcWidget": "listMapView",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "uef4645ec3fa4daa96ba3746dc0f0555"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Map Screen",
+                    "kuid": "i273a61c3fd442019db706cac58c9ff6",
+                    "originalPropertyKey": "mapViewNavigateIcon",
+                    "propertyIndex": 3,
+                    "propertyKey": "mapViewNavigateIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Navigate to current location Icon",
+                        "srcWidget": "listMapView",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "uef4645ec3fa4daa96ba3746dc0f0555"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Location Selection Screen",
+                    "kuid": "fdd985c20c3b4e188ddc7f9e9c1fca24",
+                    "originalPropertyKey": "searchButtonText",
+                    "propertyIndex": 3,
+                    "propertyKey": "searchButtonText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Search Button Text",
+                        "srcWidget": "menuComponent",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "u5605feefdb146e891ec4c6a65c6a6f4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Filter and Sort",
+                    "kuid": "d22e05ec546d4009856165177988415e",
+                    "originalPropertyKey": "ratingsVisibility",
+                    "propertyIndex": 4,
+                    "propertyKey": "ratingsVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Enable Filter by Rating",
+                        "srcWidget": "filterScreen",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "u80912c863b64f9ea9cad72b6e7f6421"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Location Selection Screen",
+                    "kuid": "c11788d14d2544dbaaa8eacc388b572b",
+                    "originalPropertyKey": "titleText",
+                    "propertyIndex": 4,
+                    "propertyKey": "suggestedPlaceTypesHeading",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Place Categories heading",
+                        "srcWidget": "menuComponent",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "u5605feefdb146e891ec4c6a65c6a6f4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Location Selection Screen",
+                    "kuid": "g18271d433864db7b8c7ac5173673fce",
+                    "originalPropertyKey": "searchSuggestionIcon",
+                    "propertyIndex": 5,
+                    "propertyKey": "searchSuggestionIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "Search Suggestion Current Location Icon",
+                        "srcWidget": "autoSuggest",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "u8fd4a34591b478f954cd8fdd2d4524f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Filter and Sort",
+                    "kuid": "e3987eb9ee554ff2aa8184fa24fb2ddc",
+                    "originalPropertyKey": "timingsVisibility",
+                    "propertyIndex": 5,
+                    "propertyKey": "timingsVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Enable Filter by Open now",
+                        "srcWidget": "filterScreen",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "u80912c863b64f9ea9cad72b6e7f6421"
+                },
+                {
+                    "access": "Enable",
+                    "defaultValue": "toggle_off.png",
+                    "group": "Filter and Sort",
+                    "kuid": "a40fa02910cf4575bc6119f56e69dba3",
+                    "originalPropertyKey": "inactiveTimingsIcon",
+                    "propertyIndex": 6,
+                    "propertyKey": "inactiveTimingsIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "displayName": "Filter by Open now inactive Icon",
+                        "srcWidget": "filterScreen",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "u80912c863b64f9ea9cad72b6e7f6421",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Enable",
+                    "defaultValue": "toggle_on.png",
+                    "group": "Filter and Sort",
+                    "kuid": "ba3c5bc0802343779b7dc3ae1a66e4bc",
+                    "originalPropertyKey": "activeTimingsIcon",
+                    "propertyIndex": 7,
+                    "propertyKey": "activeTimingsIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "displayName": "Filter by Open now active Icon",
+                        "srcWidget": "filterScreen",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "u80912c863b64f9ea9cad72b6e7f6421",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Enable",
+                    "group": "Filter and Sort",
+                    "kuid": "d7060192d20f4a16be04250324db9740",
+                    "originalPropertyKey": "sortVisibility",
+                    "propertyIndex": 8,
+                    "propertyKey": "sortVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Display Sorting options in Filter",
+                        "srcWidget": "filterScreen",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "u80912c863b64f9ea9cad72b6e7f6421"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Filter and Sort",
+                    "kuid": "c1ca1fdf27aa46ef914a75291f628a1e",
+                    "originalPropertyKey": "sortByDistance",
+                    "propertyIndex": 9,
+                    "propertyKey": "sortByDistance",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Enable Sort by Distance",
+                        "srcWidget": "filterScreen",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "u80912c863b64f9ea9cad72b6e7f6421"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Filter and Sort",
+                    "kuid": "cbbdc234968f42719236b0dedbcaa8c9",
+                    "originalPropertyKey": "sortByRating",
+                    "propertyIndex": 10,
+                    "propertyKey": "sortByRating",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Enable Sort by Rating",
+                        "srcWidget": "filterScreen",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "u80912c863b64f9ea9cad72b6e7f6421"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Filter and Sort",
+                    "kuid": "c16121a88f044e80a0172058a9e87764",
+                    "originalPropertyKey": "sortByAZ",
+                    "propertyIndex": 11,
+                    "propertyKey": "sortByAZ",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Enable Sort by AtoZ",
+                        "srcWidget": "filterScreen",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "u80912c863b64f9ea9cad72b6e7f6421"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

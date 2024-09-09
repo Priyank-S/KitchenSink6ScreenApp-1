@@ -1,0 +1,29 @@
+{
+    "AS_Segment_e97eef4f026147e6993ece6ac8c9cc1b": {
+        "id": "AS_Segment_e97eef4f026147e6993ece6ac8c9cc1b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u05a5175cf6445c2bf2ddc18926b3ec6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cabff094cbf34d3eaa04ecb8bd4dd200",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.initialDirectionPosition = parseInt(y);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

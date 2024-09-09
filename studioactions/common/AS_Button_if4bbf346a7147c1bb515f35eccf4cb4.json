@@ -1,0 +1,17 @@
+{
+    "AS_Button_if4bbf346a7147c1bb515f35eccf4cb4": {
+        "id": "AS_Button_if4bbf346a7147c1bb515f35eccf4cb4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e3a1307fcd40420d8664a6a4d04c9214",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.openGoogleMaps();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_Button_af9119d589c24b138a52168b1a18f296": {
+        "id": "AS_Button_af9119d589c24b138a52168b1a18f296",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d00d2dd4a4704b66b692241091f7474b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.openAppleMaps();",
+            "callbackType": null
+        }]
+    }
+}

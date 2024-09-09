@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "5.00%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "45%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s182d916160b48868d05a1ea30fad4e7",
+    "_text_": "or Sign In using ",
+    "_top_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "53.33%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.10%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "65.48%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sd488b73556d44dc9fe7f41890753277",
+    "id": "btnSignUp",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "ue70ab70c4504868be173c468c09e2f3",
+    "name": "kony.ui.Button",
+    "parent": "PinnacleLogin",
+    "pf": "userwidgetmodel",
+    "showprogressindicator": false,
+    "wType": "Button",
+    "zindex": 6
+}

@@ -1,0 +1,281 @@
+{
+    "classname": "filterscreen",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "kuid": "edbc4ed272554e788a7bd764d15d9391",
+                    "paramList": [
+                        {
+                            "name": "setDataJSON"
+                        }
+                    ],
+                    "propertyKey": "setDatatoFilterScreen",
+                    "pw": {
+                        "displayName": "setDatatoFilterScreen",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u12d2a7443c349888fe7038148e8badf",
+                    "type": "event"
+                },
+                {
+                    "kuid": "d114f0d392c1425a85115da79824b607",
+                    "paramList": [
+                        {
+                            "name": "filterData"
+                        }
+                    ],
+                    "propertyKey": "getAppliedFilter",
+                    "pw": {
+                        "displayName": "getAppliedFilter",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u12d2a7443c349888fe7038148e8badf",
+                    "type": "event"
+                },
+                {
+                    "kuid": "ca42dcb8d87e44eaa9997954b77726bf",
+                    "paramList": [],
+                    "propertyKey": "resetFilters",
+                    "pw": {
+                        "displayName": "resetFilters",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u12d2a7443c349888fe7038148e8badf",
+                    "type": "event"
+                },
+                {
+                    "kuid": "f7c6a4004de34e30a45665d9124de56d",
+                    "paramList": [],
+                    "propertyKey": "changeFilterOptions",
+                    "pw": {
+                        "displayName": "changeFilterOptions",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u12d2a7443c349888fe7038148e8badf",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "kuid": "bddf617ce5e44506ba3b3e63e6092ac6",
+                    "paramList": [
+                        {
+                            "name": "filterSortDetails"
+                        }
+                    ],
+                    "propertyKey": "customApplyFilter",
+                    "pw": {
+                        "displayName": "customApplyFilter",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u12d2a7443c349888fe7038148e8badf",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "kuid": "fba9960aa22e4ba8b1a4e2b7221aacf6",
+                    "originalPropertyKey": "onTouchEnd",
+                    "propertyKey": "cancelFilter",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "cancelFilter",
+                        "srcWidget": "lblCancel",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u41b2492b149437e99bb26da1749d322"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "General"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "star_empty.png",
+                    "kuid": "eb77913b4efc4c28b2724b3175cbd723",
+                    "originalPropertyKey": "inactiveIcon",
+                    "propertyIndex": 7,
+                    "propertyKey": "inactiveIcon",
+                    "pw": {
+                        "displayName": "Rating Inactive icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u12d2a7443c349888fe7038148e8badf",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "star_full.png",
+                    "kuid": "e2c6f0a843bb47c9ac78e9f0eb88c580",
+                    "originalPropertyKey": "activeIcon",
+                    "propertyIndex": 8,
+                    "propertyKey": "activeIcon",
+                    "pw": {
+                        "displayName": "Rating active icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u12d2a7443c349888fe7038148e8badf",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "toggle_off.png",
+                    "kuid": "ja6e640c46324879a581ba8bd9780da5",
+                    "originalPropertyKey": "inactiveTimingsIcon",
+                    "propertyIndex": 9,
+                    "propertyKey": "inactiveTimingsIcon",
+                    "pw": {
+                        "displayName": "Filter by Open now inactive icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u12d2a7443c349888fe7038148e8badf",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "toggle_on.png",
+                    "kuid": "ac5b1d4d23494d54bf6eeeaaa69defeb",
+                    "originalPropertyKey": "activeTimingsIcon",
+                    "propertyIndex": 10,
+                    "propertyKey": "activeTimingsIcon",
+                    "pw": {
+                        "displayName": "Filter by Open now active icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u12d2a7443c349888fe7038148e8badf",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "kuid": "a45e8d80bb1c4cb9880b05b819331495",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "sortVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Display Sorting option in Filter",
+                        "srcWidget": "flxSort",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "u7caa42a621e431593b80510f78a9536"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "ae7db0fc9bef4090b2299d32b387f3a3",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "ratingsVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Filter by Rating",
+                        "srcWidget": "flxRating",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "u5a1040a453d4e53a75c6eacf782ce7c"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "i36e7e9acc804c07a0483c8e4a1a9aef",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "timingsVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Filter by Open now",
+                        "srcWidget": "flxOpenNow",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "u993b526e4e0423bbd38603d268c7edd"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "f8c7fa7e222446fdb88c014e6d76125f",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "sortByDistance",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Enable Sort by Distance",
+                        "srcWidget": "lblDistanceSort",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u336153857ef42f38ce00923afec2bb3"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "g03a9bfe3bd5492abd9b62c2fdc8f8ea",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 5,
+                    "propertyKey": "sortByRating",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Enable Sort by Rating",
+                        "srcWidget": "lblRatingSort",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u9b9e1905c1b447e892afadc7cc56c75"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "ec37b2b9a18d40f8aa8dc4a10f8dcda2",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 6,
+                    "propertyKey": "sortByAZ",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Enable Sort by AtoZ",
+                        "srcWidget": "lblAZSort",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u34c8822b48048ab95a47082994cf697"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

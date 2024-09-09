@@ -1,0 +1,85 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        5,
+        1,
+        0,
+        1
+    ],
+    "_placeholder_": "Username",
+    "_right_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_skin_": "s66a70b3c2174ae0b9f1caa1da173671",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "71.29%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {},
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "closebuttontext": "Done",
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {},
+    "enabled": false,
+    "focusskin": "s66a70b3c2174ae0b9f1caa1da173671",
+    "id": "tbxUsername",
+    "ide_onDone": "AS_TextField_f64e58290ef34cde8fefa201decc52b7",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "keyboardActionLabel": 1,
+            "showClearButton": true,
+            "showCloseButton": false,
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "keyboardactionlabel": 1,
+    "keyboardtype": "A",
+    "kuid": "u6f7aef208b04f57ab2b947a6484afe0",
+    "maxtextlength": 30,
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxLogin",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "s4801154555e4353b5e754b88470b51a",
+    "securetextentry": false,
+    "showclearbutton": true,
+    "showclosebutton": false,
+    "showoprogressindicator": false,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField"
+}

@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_f16a352bf4814c5488dab795c5ed91e3": {
+        "id": "AS_FlexContainer_f16a352bf4814c5488dab795c5ed91e3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u924112cf6de4964af923934a6b89ba7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b58642c1727d441bbedc22620bf04216",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"** Dummy action to make the actions of the below flex unaccessable **\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

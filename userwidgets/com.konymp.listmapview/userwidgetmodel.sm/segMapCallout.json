@@ -1,0 +1,351 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "-250"
+    },
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segMapCallout",
+    "ide_onRowClick": "AS_Segment_b14840cdee044ec6a1ad4c3f57a471ed",
+    "ide_onSwipe": "AS_Segment_f9a7b6c14e5346beb7d887bb1831dfe7",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "isvisible": true,
+    "kuid": "uf72a2e2f54d46678d52614ff05f7be3",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "img1": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "img2": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "img3": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "img4": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "img5": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "imgCall": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "phone_icon.png"
+                },
+                "imgGetDirections": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "directions_icon.png"
+                },
+                "imgItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "imagedrag.png"
+                },
+                "lblAddress": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Address"
+                },
+                "lblCall": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Call"
+                },
+                "lblDistance": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Distance"
+                },
+                "lblGetDirections": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Directions"
+                },
+                "lblPlaceName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "PlaceName"
+                },
+                "lblRate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Rate"
+                },
+                "lblTiming": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Timing"
+                }
+            },
+            {
+                "img1": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "img2": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "img3": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "img4": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "img5": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "imgCall": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "phone_icon.png"
+                },
+                "imgGetDirections": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "directions_icon.png"
+                },
+                "imgItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "imagedrag.png"
+                },
+                "lblAddress": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Address"
+                },
+                "lblCall": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Call"
+                },
+                "lblDistance": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Distance"
+                },
+                "lblGetDirections": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Directions"
+                },
+                "lblPlaceName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "PlaceName"
+                },
+                "lblRate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Rate"
+                },
+                "lblTiming": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Timing"
+                }
+            },
+            {
+                "img1": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "img2": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "img3": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "img4": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "img5": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "star_empty.png"
+                },
+                "imgCall": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "phone_icon.png"
+                },
+                "imgGetDirections": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "directions_icon.png"
+                },
+                "imgItem": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "imagedrag.png"
+                },
+                "lblAddress": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Address"
+                },
+                "lblCall": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Call"
+                },
+                "lblDistance": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Distance"
+                },
+                "lblGetDirections": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Directions"
+                },
+                "lblPlaceName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "PlaceName"
+                },
+                "lblRate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Rate"
+                },
+                "lblTiming": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Timing"
+                }
+            }
+        ],
+        "rowTemplateId": "a1b920fa80af483fbd4b4bf2f40d6997",
+        "rowtemplate": "flxHolder",
+        "sectionHeaderTemplateId": null,
+        "selectionBehaviorConfig": null,
+        "widgetdatamap": {
+            "flexLeftPane": "flexLeftPane",
+            "flexRightPane": "flexRightPane",
+            "flxBottomCard": "flxBottomCard",
+            "flxCall": "flxCall",
+            "flxContainer": "flxContainer",
+            "flxDirections": "flxDirections",
+            "flxHolder": "flxHolder",
+            "flxHolder1": "flxHolder1",
+            "flxRating": "flxRating",
+            "flxTopCard": "flxTopCard",
+            "img1": "img1",
+            "img2": "img2",
+            "img3": "img3",
+            "img4": "img4",
+            "img5": "img5",
+            "imgCall": "imgCall",
+            "imgGetDirections": "imgGetDirections",
+            "imgItem": "imgItem",
+            "lblAddress": "lblAddress",
+            "lblCall": "lblCall",
+            "lblDistance": "lblDistance",
+            "lblGetDirections": "lblGetDirections",
+            "lblPlaceName": "lblPlaceName",
+            "lblRate": "lblRate",
+            "lblTiming": "lblTiming"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": false,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "flxMapView",
+    "pf": "userwidgetmodel",
+    "retainselection": false,
+    "rowcounter": 2,
+    "rowfocusskin": "s7585560ea22452490e7d4c7a71d0e71",
+    "rowskin": "s604ea697149471c80e65a07712300fe",
+    "rowtemplate": "flxHolder",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s5d9a8cc6f51468fb6df32e07e0f508c",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "64646400",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 750,
+        "widthRatio": 0
+    },
+    "viewtype": "pageview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flexLeftPane": "flexLeftPane",
+        "flexRightPane": "flexRightPane",
+        "flxBottomCard": "flxBottomCard",
+        "flxCall": "flxCall",
+        "flxContainer": "flxContainer",
+        "flxDirections": "flxDirections",
+        "flxHolder": "flxHolder",
+        "flxHolder1": "flxHolder1",
+        "flxRating": "flxRating",
+        "flxTopCard": "flxTopCard",
+        "img1": "img1",
+        "img2": "img2",
+        "img3": "img3",
+        "img4": "img4",
+        "img5": "img5",
+        "imgCall": "imgCall",
+        "imgGetDirections": "imgGetDirections",
+        "imgItem": "imgItem",
+        "lblAddress": "lblAddress",
+        "lblCall": "lblCall",
+        "lblDistance": "lblDistance",
+        "lblGetDirections": "lblGetDirections",
+        "lblPlaceName": "lblPlaceName",
+        "lblRate": "lblRate",
+        "lblTiming": "lblTiming"
+    },
+    "zindex": 2
+}

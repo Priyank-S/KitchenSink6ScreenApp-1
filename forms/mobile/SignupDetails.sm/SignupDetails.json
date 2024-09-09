@@ -15,6 +15,11 @@
         0
     ],
     "_percent_": true,
+    "_pxMenuIndex": [
+        0,
+        1,
+        1
+    ],
     "_skin_": "s23d9b30a6264348a1e005b366d369b5",
     "_title_": null,
     "addWidgetsdone": false,
@@ -33,7 +38,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "PaddedButtonRound"
+        "PaddedButtonRound",
+        "placelocator"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -42,9 +48,11 @@
             "name": "SignupDetailsController"
         }
     },
+    "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
+    "device": "iPhone14",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "SignupDetails",
@@ -98,6 +106,9 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
+    "platform": "iphone",
+    "prevDevice": "iPhone14",
+    "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

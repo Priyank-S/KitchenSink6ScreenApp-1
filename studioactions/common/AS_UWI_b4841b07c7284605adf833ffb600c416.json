@@ -1,0 +1,20 @@
+{
+    "AS_UWI_b4841b07c7284605adf833ffb600c416": {
+        "id": "AS_UWI_b4841b07c7284605adf833ffb600c416",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u924112cf6de4964af923934a6b89ba7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e0103a1ae5654bf59e02d98162f1e683",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.loadMoreNearbyPlaces();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

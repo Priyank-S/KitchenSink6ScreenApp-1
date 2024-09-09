@@ -1,0 +1,194 @@
+{
+    "classname": "menucomponent",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "kuid": "c08ed74e04f9499e9328f9bd44f61054",
+                    "paramList": [
+                        {
+                            "name": "booleanValue"
+                        }
+                    ],
+                    "propertyKey": "enableDisableSearchButton",
+                    "pw": {
+                        "displayName": "enableDisableSearchButton",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                },
+                {
+                    "kuid": "a9ffe766e46b40b2934049b57882cb50",
+                    "paramList": [],
+                    "propertyKey": "getSelectedCategory",
+                    "pw": {
+                        "displayName": "getSelectedCategory",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                },
+                {
+                    "kuid": "e86e5ac54b5044cba7007e7ab3be7ac3",
+                    "paramList": [],
+                    "propertyKey": "forceLayoutTheComponent",
+                    "pw": {
+                        "displayName": "forceLayoutTheComponent",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                },
+                {
+                    "kuid": "a5ca8c98f5034f8d9809f4d5d3c5c1ab",
+                    "paramList": [],
+                    "propertyKey": "creatDynamicMenu",
+                    "pw": {
+                        "displayName": "creatDynamicMenu",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "kuid": "i6ea8f47320c49eb837c986769ceefd6",
+                    "paramList": [
+                        {
+                            "name": "isSelected"
+                        }
+                    ],
+                    "propertyKey": "selectedUnselectedImage",
+                    "pw": {
+                        "displayName": "selectedUnselectedImage",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u640f9cd9ae847e3822eac331b0ca099",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "kuid": "a9c0ff132bea48dba0599ad97e8b26ac",
+                    "originalPropertyKey": "onClick",
+                    "propertyKey": "onSearchSelectionClicked",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onSearchSelectionClicked",
+                        "srcWidget": "btnSearchSelection",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "u4ba9b07a9c345a7b04c4f33f9be676e"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "General"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "konympPLsknFlexffffff",
+                    "group": "General",
+                    "kuid": "d8b517cf948d4166bbcf072d962991c7",
+                    "originalPropertyKey": "menuContainerSkin",
+                    "propertyKey": "menuContainerSkin",
+                    "pw": {
+                        "displayName": "Menu Container Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u640f9cd9ae847e3822eac331b0ca099",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "kuid": "h6afce4d711b415688e9549136b7fbb3",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "titleVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Title Visibility",
+                        "srcWidget": "lblTitle",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u5cb5dfec8564c0491f5f94ecde60638"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "e8ae3b2c55c2429d8c65042dd4a56b33",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "titleText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Title Text",
+                        "srcWidget": "lblTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u5cb5dfec8564c0491f5f94ecde60638"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "ad86b38cee0740039cb93288a7ecf0a5",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "searchSelectionVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Search Selection Visibility",
+                        "srcWidget": "flxSearchSelection",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "uf0b9a8cabce439c981dfb07b0397ca8"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "a92e61a0c32047b8af224710d4b0efe8",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "searchButtonText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Search Button Text",
+                        "srcWidget": "btnSearchSelection",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "u4ba9b07a9c345a7b04c4f33f9be676e"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

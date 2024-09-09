@@ -1,0 +1,29 @@
+{
+    "AS_Segment_if3bcf83366f404d8c51269baa6eb014": {
+        "id": "AS_Segment_if3bcf83366f404d8c51269baa6eb014",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u924112cf6de4964af923934a6b89ba7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ed758efa229b4c42ac6120c9b4f06d0f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.recentSearchItemSeleceted();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

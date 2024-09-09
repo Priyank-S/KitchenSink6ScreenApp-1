@@ -1,0 +1,93 @@
+{
+    "android": {
+        "font_name": "Roboto-Regular",
+        "font_size": 86,
+        "isForked": false
+    },
+    "background_color": "f2f2f2ff",
+    "bg_type": "one",
+    "border_color": "282828ff",
+    "border_radius": 100,
+    "border_style": "custom",
+    "border_type": 0,
+    "border_width": 1,
+    "desktopweb": {
+        "font_name": "Helvetica",
+        "font_size": 86,
+        "isForked": false
+    },
+    "fontSizeInPx": false,
+    "font_color": "bdc3c7ff",
+    "font_name": "Helvetica",
+    "font_size": 86,
+    "font_style": "normal",
+    "font_weight": "normal",
+    "ipad": {
+        "font_name": "Nunito-Regular",
+        "font_size": 86,
+        "isForked": false
+    },
+    "iphone": {
+        "font_name": "OpenSans-Regular",
+        "font_size": 86,
+        "isForked": false
+    },
+    "isDefaultSkin": false,
+    "kiosk": {
+        "font_name": "GenericMonospace",
+        "font_size": 86,
+        "isForked": false
+    },
+    "kuid": "sa2f1531362b4dd4b515152daeb441c9",
+    "spaan": {
+        "font_name": "Helvetica",
+        "font_size": 86,
+        "isForked": false
+    },
+    "spaandroidtablet": {
+        "font_name": "Helvetica",
+        "font_size": 86,
+        "isForked": false
+    },
+    "spaip": {
+        "font_name": "Helvetica",
+        "font_size": 86,
+        "isForked": false
+    },
+    "spaipad": {
+        "font_name": "Helvetica",
+        "font_size": 86,
+        "isForked": false
+    },
+    "spawindowstablet": {
+        "font_name": "Helvetica",
+        "font_size": 86,
+        "isForked": false
+    },
+    "spawinphone8": {
+        "font_name": "Helvetica",
+        "font_size": 86,
+        "isForked": false
+    },
+    "tabrcandroid": {
+        "font_name": "Nunito-Regular",
+        "font_size": 86,
+        "isForked": false
+    },
+    "wType": "TextField",
+    "watchos": {
+        "font_name": "Helvetica",
+        "font_size": 86,
+        "isForked": false
+    },
+    "windows8": {
+        "font_name": "Nunito-Regular",
+        "font_size": 86,
+        "isForked": false
+    },
+    "winphone8": {
+        "font_name": "Nunito-Regular",
+        "font_size": 86,
+        "isForked": false
+    }
+}
