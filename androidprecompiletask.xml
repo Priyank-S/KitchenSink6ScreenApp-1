@@ -24,6 +24,6 @@
 		<echo message="Build mode = ${build.option} , Packagepath = ${packagepath} , x86 Support = ${supportx86}" />		
 		<echo>Java/JVM version: ${ant.java.version}</echo> 
 		<echo>Java/JVM detail version: ${java.version}</echo>
-		<concat destfile="${app.dir}/assets/application.properties"append="true">enableLoggerFramework=true</concat>
+		<concat destfile="${app.dir}/assets/application.properties" append="true">enableLoggerFramework=true</concat>
 	</target>
 </project>	
