@@ -20,10 +20,11 @@
 	-->
 	<target name="PreCompileSetup" >
 
-		<echo message="basedir = ${basedir} ,konyapp.dir = ${konyapp.dir}, appdir = ${app.dir} , isUniversalApp = ${isUniversalApp} ,isMobileBuild = ${isMobileBuild}"/>
-		<echo message="Build mode = ${build.option} , Packagepath = ${packagepath} , x86 Support = ${supportx86}" />		
-		<echo>Java/JVM version: ${ant.java.version}</echo> 
-		<echo>Java/JVM detail version: ${java.version}</echo>
-		<concat destfile="${app.dir}/assets/application.properties" append="true">enableLoggerFramework=true</concat>
-	</target>
+        <echo message="basedir = ${basedir} ,konyapp.dir = ${konyapp.dir}, appdir = ${app.dir} , isUniversalApp = ${isUniversalApp} ,isMobileBuild = ${isMobileBuild}"/>
+        <echo message="Build mode = ${build.option} , Packagepath = ${packagepath} , x86 Support = ${supportx86}" />        
+        <echo>Java/JVM version: ${ant.java.version}</echo> 
+        <echo>Java/JVM detail version: ${java.version}</echo>
+                             <concat append="true" destfile="${app.dir}/assets/application.properties" fixlastline="yes">${line.separator}
+                                   enableLoggerFramework : true${line.separator}</concat>
+    </target>
 </project>	
