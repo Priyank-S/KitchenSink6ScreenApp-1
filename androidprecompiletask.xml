@@ -26,5 +26,6 @@
         <echo>Java/JVM detail version: ${java.version}</echo>
                              <concat append="true" destfile="${app.dir}/assets/application.properties" fixlastline="yes">${line.separator}
                                    enableLoggerFramework : true${line.separator}</concat>
+		<echo message="PRECOMPILE DONE PSDEBUG" />   
     </target>
 </project>	
