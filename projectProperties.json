@@ -287,9 +287,9 @@
         },
         "wType": "Appmenu"
     },
-    "appnamekey": "Sample",
+    "appnamekey": "PSApp",
     "appointments": "false",
-    "apppackagekey": "com.kone.SampleTest",
+    "apppackagekey": "com.kone.PSApp",
     "apptitle": "",
     "appversioncode": "1",
     "appversionkey": "1.0.0",
